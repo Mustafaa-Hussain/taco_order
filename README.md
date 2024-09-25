@@ -1,7 +1,8 @@
 # Taco order Application.
 Following spring in action book 6<sup>th</sup> edition.
-- Initializing application.
-- Handlig web requests.
-- Displaying simple information.
-- Working with data by jdbc.
-- Persisting data with Spring Data JPA.
+- Initializing Application.
+- Handling Web Requests.
+- Displaying Simple Information.
+- Using H2 Database.
+- Working with Data by JDBC:.
+- Persisting Data with Spring Data JPA.
