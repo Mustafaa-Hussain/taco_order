@@ -1,4 +1,11 @@
 spring:
   datasource:
-    generate-unique-name: false
-    name: tacocloud
+    url: jdbc:postgresql://localhost:5432/user_data_db
+    username: postgres
+    password: toor
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

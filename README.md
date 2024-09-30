@@ -13,3 +13,4 @@ Following spring in action book 6<sup>th</sup> edition.
 - Adding logout functionality.
 - Knowing more about `CSRF` attacks.
 - Working with Custom user data class.
+- Using permanent database `PostgreSQL` instead of runtime database`h2`.
