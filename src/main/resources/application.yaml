@@ -8,4 +8,13 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8443
+  ssl:
+    key-store: src/main/resources/mykeys.jks
+    key-store-password: chemicalSon
+    key-password: chemicalSon
+# that will choose random available port
+#server:
+#  port: 0
