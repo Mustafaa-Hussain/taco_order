@@ -1,4 +1,7 @@
 spring:
+  data:
+    rest:
+      base-path: /data-api
   datasource:
     url: jdbc:postgresql://localhost:5432/user_data_db
     username: postgres

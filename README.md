@@ -15,3 +15,5 @@ Following spring in action book 6<sup>th</sup> edition.
 - Working with Custom user data class.
 - Using permanent database `PostgreSQL` instead of runtime database`h2`.
 - Configure server to support `SSL` protocol.
+- Adding `REST api` end points for all data we manage.
+- adding spring data rest dependency to automate all end points we need in other path.
